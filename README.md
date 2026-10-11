@@ -20,9 +20,7 @@ instance. Pressing the binding again after closing the picker reopens that same
 instance without creating an overlap.
 
 The installer creates `~/.config/image-picker/directories` if it does not
-already exist. Put one wallpaper directory per line in that file. `~` is
-expanded to your home directory. By default it lists `~/Pictures/Wallpapers`
-and `~/wallpapers`.
+already exist. Put one wallpaper directory per line in that file.
 
 Install a wallpaper backend: `caelestia`, `swww`, `hyprpaper`, or `swaybg`. The
 apply script uses the first installed backend in that order. Caelestia applies
@@ -66,8 +64,6 @@ Hyprland. Привязка по умолчанию — **Super+Ctrl+Space**. О�
 
 Установщик создаёт `~/.config/image-picker/directories`, если он ещё не
 существует. Укажите по одному каталогу с обоями на строку в этом файле.
-`~` раскрывается в ваш домашний каталог. По умолчанию указаны
-`~/Pictures/Wallpapers` и `~/wallpapers`.
 
 Установите бэкенд для обоев: `caelestia`, `swww`, `hyprpaper` или `swaybg`.
 Скрипт применения использует первый установленный бэкенд в этом порядке.
