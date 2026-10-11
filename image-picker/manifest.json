@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "image-picker",
+  "name": "Image picker",
+  "version": "1.0.0",
+  "author": "Image picker contributors",
+  "description": "Standalone Quickshell wallpaper picker overlay",
+  "kinds": [
+    "overlay"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "ImagePicker.qml"
+  }
+}
