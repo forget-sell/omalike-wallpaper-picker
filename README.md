@@ -2,7 +2,7 @@
 
 ---
 
-![[screen.png]]
+![[image-picker/screen/screen.png]]
 
 <a id="en"></a>
 # English
