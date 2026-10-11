@@ -15,8 +15,8 @@ longer requires Omarchy shell components or theme utilities.
 
 ## Install
 
-Run `./install.sh`, then add the printed `source = .../hyprland.conf` line to
-your Hyprland configuration and reload Hyprland. Default binding is **Super+Ctrl+Space**.
+Run `./install.sh`, then add bind to
+your Hyprland configuration. Default binding is **Super+Ctrl+Space**.
 It toggles the single running picker; if Quickshell is not running, it starts one
 instance. Pressing the binding again after closing the picker reopens that same
 instance without creating an overlap.
@@ -24,7 +24,7 @@ instance without creating an overlap.
 The installer creates `~/.config/image-picker/directories` if it does not
 already exist. Put one wallpaper directory per line in that file.
 
-Install a wallpaper backend: `caelestia`, `swww`, `hyprpaper`, or `swaybg`. The
+Install a wallpaper backend: `caelestia wallpaper`, `swww`, `hyprpaper`, or `swaybg`. The
 apply script uses the first installed backend in that order. Caelestia applies
 the wallpaper through its wallpaper manager, including its scheme handling.
 For video previews, install `ffmpegthumbnailer`; static-image browsing does not
@@ -57,9 +57,7 @@ Arch Linux. Компоновка карусели и навигация с кл�
 
 ## Установка
 
-Запустите `./install.sh`, затем добавьте выведенную строку
-`source = .../hyprland.conf` в вашу конфигурацию Hyprland и перезагрузите
-Hyprland. Привязка по умолчанию — **Super+Ctrl+Space**. Она переключает единственный
+Запустите `./install.sh`, затем добавьте бинд в ваш конфиг Hyprland. Привязка по умолчанию — **Super+Ctrl+Space**. Она переключает единственный
 запущенный экземпляр выбора обоев; если Quickshell не запущен, запускается
 один экземпляр. Повторное нажатие привязки после закрытия окна выбора
 открывает тот же экземпляр без создания перекрытия.
@@ -67,7 +65,7 @@ Hyprland. Привязка по умолчанию — **Super+Ctrl+Space**. О�
 Установщик создаёт `~/.config/image-picker/directories`, если он ещё не
 существует. Укажите по одному каталогу с обоями на строку в этом файле.
 
-Установите бэкенд для обоев: `caelestia`, `swww`, `hyprpaper` или `swaybg`.
+Установите бэкенд для обоев: `caelestia wallpaper`, `swww`, `hyprpaper` или `swaybg`.
 Скрипт применения использует первый установленный бэкенд в этом порядке.
 Caelestia применяет обои через свой менеджер обоев, включая обработку схем.
 Для видео-превью установите `ffmpegthumbnailer`; для просмотра статических
