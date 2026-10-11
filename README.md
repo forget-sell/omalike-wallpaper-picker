@@ -2,6 +2,8 @@
 
 ---
 
+![[screen.png]]
+
 <a id="en"></a>
 # English
 
