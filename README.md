@@ -29,8 +29,7 @@ The installer creates `~/.config/image-picker/directories` if it does not
 already exist. Put one wallpaper directory per line in that file.
 
 Install a wallpaper backend: `caelestia wallpaper`, `swww`, `hyprpaper`, or `swaybg`. The
-apply script uses the first installed backend in that order. Caelestia applies
-the wallpaper through its wallpaper manager, including its scheme handling.
+apply script uses the first installed backend in that order.
 For video previews, install `ffmpegthumbnailer`; static-image browsing does not
 require it.
 
@@ -75,7 +74,6 @@ Arch Linux. Компоновка карусели и навигация с кл�
 
 Установите бэкенд для обоев: `caelestia wallpaper`, `swww`, `hyprpaper` или `swaybg`.
 Скрипт применения использует первый установленный бэкенд в этом порядке.
-Caelestia применяет обои через свой менеджер обоев, включая обработку схем.
 Для видео-превью установите `ffmpegthumbnailer`; для просмотра статических
 изображений он не требуется.
 
