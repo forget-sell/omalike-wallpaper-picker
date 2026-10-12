@@ -15,7 +15,7 @@ longer requires Omarchy shell components or theme utilities.
 
 ## Install
 
-Run `./install.sh`, then add bind to
+Run `./image-picker/image-picker/install.sh`, then add bind to
 your Hyprland configuration 
  `hl.bind("SUPER + CTRL + SPACE", hl.dsp.exec_cmd(
  "qs ipc -c image-picker call image-picker toggle || qs -n -c image-picker"
@@ -60,7 +60,7 @@ Arch Linux. Компоновка карусели и навигация с кл�
 
 ## Установка
 
-Запустите `./install.sh`, затем добавьте бинд в ваш конфиг Hyprland
+Запустите `./image-picker/image-picker/install.sh`, затем добавьте бинд в ваш конфиг Hyprland
 `hl.bind("SUPER + CTRL + SPACE", hl.dsp.exec_cmd(
  "qs ipc -c image-picker call image-picker toggle || qs -n -c image-picker"
 ))`. 
