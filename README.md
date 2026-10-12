@@ -1,9 +1,10 @@
-[RU](#russian) | [EN](#english)
+[RU](#ru) | [EN](#en)
 
 ---
 
 ![text](image-picker/screen/screen.png)
 
+<a id="en"></a>
 # English
 
 # Image picker for Quickshell
@@ -48,6 +49,7 @@ override the configured wallpaper directories with a newline-separated list.
 
 ---
 
+<a id="ru"></a>
 # Русский
 
 # Выбор обоев для Quickshell
