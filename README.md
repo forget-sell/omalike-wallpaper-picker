@@ -105,8 +105,8 @@ Arch Linux. Компоновка карусели и навигация с кл�
 
 # Credits / Благодарности
 
-## English (Английский)
----
+## English
+
 This project is based on the "image-picker" component from "Omarchy" (https://github.com/omacom/omarchy).
 
 I adapted the original component into a standalone wallpaper picker, removing Omarchy-specific dependencies and adapting it to my own workflow, including integration with Caelestia.
@@ -115,8 +115,8 @@ This is an independent project and is not officially affiliated with Omarchy or 
 
 The original Omarchy project is licensed under the MIT License. See the original project for its license terms and copyright notices.
 
-## Русский (Russian)
----
+## Русский
+
 Этот проект основан на компоненте "image-picker" из "Omarchy" (https://github.com/omacom/omarchy).
 
 Я адаптировал оригинальный компонент в самостоятельный менеджер обоев, убрав зависимости от специфичных для Omarchy компонентов и команд и приспособив его под собственный сценарий использования, включая интеграцию с Caelestia.
