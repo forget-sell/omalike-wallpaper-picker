@@ -103,7 +103,7 @@ Arch Linux. Компоновка карусели и навигация с кл�
    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=forget-sell/omalike-wallpaper-picker&type=date&legend=top-left" />
  </picture>
 </a>
----
+
 
 # Credits / Благодарности
 
