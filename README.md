@@ -1,4 +1,4 @@
-[RU](#ru) | [EN](#en)
+[[#ru|RU]] | [[#en|EN]]
 
 ---
 
@@ -18,7 +18,7 @@ longer requires Omarchy shell components or theme utilities.
 Run `./install.sh`, then add bind to
 your Hyprland configuration 
  `hl.bind("SUPER + CTRL + SPACE", hl.dsp.exec_cmd(
-	"qs ipc -c image-picker call image-picker toggle || qs -n -c image-picker"
+ "qs ipc -c image-picker call image-picker toggle || qs -n -c image-picker"
  ))`. 
 Default binding is **Super+Ctrl+Space**.
 It toggles the single running picker; if Quickshell is not running, it starts one
@@ -62,7 +62,7 @@ Arch Linux. Компоновка карусели и навигация с кл�
 
 Запустите `./install.sh`, затем добавьте бинд в ваш конфиг Hyprland
 `hl.bind("SUPER + CTRL + SPACE", hl.dsp.exec_cmd(
-	"qs ipc -c image-picker call image-picker toggle || qs -n -c image-picker"
+ "qs ipc -c image-picker call image-picker toggle || qs -n -c image-picker"
 ))`. 
 Привязка по умолчанию — **Super+Ctrl+Space**. Она переключает единственный
 запущенный экземпляр выбора обоев; если Quickshell не запущен, запускается
@@ -101,3 +101,26 @@ Arch Linux. Компоновка карусели и навигация с кл�
    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=forget-sell/omalike-wallpaper-picker&type=date&legend=top-left" />
  </picture>
 </a>
+---
+
+# Credits / Благодарности
+
+## English
+---
+This project is based on the "image-picker" component from "Omarchy" (https://github.com/omacom/omarchy).
+
+I adapted the original component into a standalone wallpaper picker, removing Omarchy-specific dependencies and adapting it to my own workflow, including integration with Caelestia.
+
+This is an independent project and is not officially affiliated with Omarchy or Caelestia.
+
+The original Omarchy project is licensed under the MIT License. See the original project for its license terms and copyright notices.
+
+## Русский
+---
+Этот проект основан на компоненте "image-picker" из "Omarchy" (https://github.com/omacom/omarchy).
+
+Я адаптировал оригинальный компонент в самостоятельный менеджер обоев, убрав зависимости от специфичных для Omarchy компонентов и команд и приспособив его под собственный сценарий использования, включая интеграцию с Caelestia.
+
+Это независимый проект, официально не связанный с Omarchy или Caelestia.
+
+Оригинальный проект Omarchy распространяется под лицензией MIT. Условия лицензии и уведомления об авторских правах см. в оригинальном проекте.
