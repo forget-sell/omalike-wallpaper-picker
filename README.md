@@ -105,7 +105,7 @@ Arch Linux. Компоновка карусели и навигация с кл�
 
 # Credits / Благодарности
 
-## English
+## English (Английский)
 ---
 This project is based on the "image-picker" component from "Omarchy" (https://github.com/omacom/omarchy).
 
@@ -115,7 +115,7 @@ This is an independent project and is not officially affiliated with Omarchy or 
 
 The original Omarchy project is licensed under the MIT License. See the original project for its license terms and copyright notices.
 
-## Русский
+## Русский (Russian)
 ---
 Этот проект основан на компоненте "image-picker" из "Omarchy" (https://github.com/omacom/omarchy).
 
