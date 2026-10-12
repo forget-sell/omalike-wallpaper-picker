@@ -94,6 +94,8 @@ Arch Linux. Компоновка карусели и навигация с кл�
 
 ## Star History
 
+## Star History
+
 <a href="https://www.star-history.com/?repos=forget-sell%2Fomalike-wallpaper-picker&type=date&legend=top-left">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=forget-sell/omalike-wallpaper-picker&type=date&theme=dark&legend=top-left" />
