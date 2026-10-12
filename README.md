@@ -16,7 +16,11 @@ longer requires Omarchy shell components or theme utilities.
 ## Install
 
 Run `./install.sh`, then add bind to
-your Hyprland configuration. Default binding is **Super+Ctrl+Space**.
+your Hyprland configuration 
+`hl.bind("SUPER + CTRL + SPACE", hl.dsp.exec_cmd(
+	"qs ipc -c image-picker call image-picker toggle || qs -n -c image-picker"
+))`. 
+Default binding is **Super+Ctrl+Space**.
 It toggles the single running picker; if Quickshell is not running, it starts one
 instance. Pressing the binding again after closing the picker reopens that same
 instance without creating an overlap.
@@ -57,7 +61,11 @@ Arch Linux. Компоновка карусели и навигация с кл�
 
 ## Установка
 
-Запустите `./install.sh`, затем добавьте бинд в ваш конфиг Hyprland. Привязка по умолчанию — **Super+Ctrl+Space**. Она переключает единственный
+Запустите `./install.sh`, затем добавьте бинд в ваш конфиг Hyprland
+`hl.bind("SUPER + CTRL + SPACE", hl.dsp.exec_cmd(
+	"qs ipc -c image-picker call image-picker toggle || qs -n -c image-picker"
+))`. 
+Привязка по умолчанию — **Super+Ctrl+Space**. Она переключает единственный
 запущенный экземпляр выбора обоев; если Quickshell не запущен, запускается
 один экземпляр. Повторное нажатие привязки после закрытия окна выбора
 открывает тот же экземпляр без создания перекрытия.
