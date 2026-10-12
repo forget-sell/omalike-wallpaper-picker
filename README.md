@@ -17,9 +17,9 @@ longer requires Omarchy shell components or theme utilities.
 
 Run `./install.sh`, then add bind to
 your Hyprland configuration 
-`hl.bind("SUPER + CTRL + SPACE", hl.dsp.exec_cmd(
+ `hl.bind("SUPER + CTRL + SPACE", hl.dsp.exec_cmd(
 	"qs ipc -c image-picker call image-picker toggle || qs -n -c image-picker"
-))`. 
+ ))`. 
 Default binding is **Super+Ctrl+Space**.
 It toggles the single running picker; if Quickshell is not running, it starts one
 instance. Pressing the binding again after closing the picker reopens that same
